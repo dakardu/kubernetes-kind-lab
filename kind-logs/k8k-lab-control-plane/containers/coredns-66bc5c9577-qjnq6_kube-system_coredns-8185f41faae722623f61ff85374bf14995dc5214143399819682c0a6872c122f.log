@@ -1,0 +1,188 @@
+2026-10-03T15:04:15.721380198Z stdout F maxprocs: Leaving GOMAXPROCS=16: CPU quota undefined
+2026-10-03T15:04:16.081583356Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:04:16.222918947Z stdout F [INFO] plugin/kubernetes: waiting for Kubernetes API before starting server
+2026-10-03T15:04:16.722966363Z stdout F [INFO] plugin/kubernetes: waiting for Kubernetes API before starting server
+2026-10-03T15:04:17.083626847Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:04:17.222267992Z stdout F [INFO] plugin/kubernetes: waiting for Kubernetes API before starting server
+2026-10-03T15:04:17.722916896Z stdout F [INFO] plugin/kubernetes: waiting for Kubernetes API before starting server
+2026-10-03T15:04:18.222447724Z stdout F [INFO] plugin/kubernetes: waiting for Kubernetes API before starting server
+2026-10-03T15:04:18.722821482Z stdout F [INFO] plugin/kubernetes: waiting for Kubernetes API before starting server
+2026-10-03T15:04:19.222764513Z stdout F [INFO] plugin/kubernetes: waiting for Kubernetes API before starting server
+2026-10-03T15:04:19.722966324Z stdout F [INFO] plugin/kubernetes: waiting for Kubernetes API before starting server
+2026-10-03T15:04:20.222574222Z stdout F [INFO] plugin/kubernetes: waiting for Kubernetes API before starting server
+2026-10-03T15:04:20.723591271Z stdout F [WARNING] plugin/kubernetes: starting server with unsynced Kubernetes API
+2026-10-03T15:04:20.724085076Z stdout F .:53
+2026-10-03T15:04:20.72409199Z stdout F [INFO] plugin/reload: Running configuration SHA512 = 1b226df79860026c6a52e67daa10d7f0d57ec5b023288ec00c5e05f93523c894564e15b91770d3a07ae1cfbe861d15b37d4a0027e69c546ab112970993a3b03b
+2026-10-03T15:04:20.72409513Z stdout F CoreDNS-1.12.1
+2026-10-03T15:04:20.724097643Z stdout F linux/amd64, go1.24.1, 707c7c1
+2026-10-03T15:04:27.083552994Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:04:37.084871921Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:04:45.72315261Z stdout F [INFO] plugin/kubernetes: pkg/mod/k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251: failed to list *v1.Service: Get "https://10.96.0.1:443/api/v1/services?limit=500&resourceVersion=0": dial tcp 10.96.0.1:443: i/o timeout
+2026-10-03T15:04:45.723172427Z stdout F [ERROR] plugin/kubernetes: Unhandled Error
+2026-10-03T15:04:45.723173684Z stdout F [INFO] plugin/kubernetes: pkg/mod/k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251: failed to list *v1.EndpointSlice: Get "https://10.96.0.1:443/apis/discovery.k8s.io/v1/endpointslices?limit=500&resourceVersion=0": dial tcp 10.96.0.1:443: i/o timeout
+2026-10-03T15:04:45.723174458Z stdout F [ERROR] plugin/kubernetes: Unhandled Error
+2026-10-03T15:04:45.723175122Z stdout F [INFO] plugin/kubernetes: pkg/mod/k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251: failed to list *v1.Namespace: Get "https://10.96.0.1:443/api/v1/namespaces?limit=500&resourceVersion=0": dial tcp 10.96.0.1:443: i/o timeout
+2026-10-03T15:04:45.723175821Z stdout F [ERROR] plugin/kubernetes: Unhandled Error
+2026-10-03T15:04:47.084124364Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:04:57.084400932Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:05:07.084529322Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:05:16.638364247Z stdout F [INFO] plugin/kubernetes: pkg/mod/k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251: failed to list *v1.Service: Get "https://10.96.0.1:443/api/v1/services?limit=500&resourceVersion=0": dial tcp 10.96.0.1:443: i/o timeout
+2026-10-03T15:05:16.638378807Z stdout F [ERROR] plugin/kubernetes: Unhandled Error
+2026-10-03T15:05:16.991802135Z stdout F [INFO] plugin/kubernetes: pkg/mod/k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251: failed to list *v1.EndpointSlice: Get "https://10.96.0.1:443/apis/discovery.k8s.io/v1/endpointslices?limit=500&resourceVersion=0": dial tcp 10.96.0.1:443: i/o timeout
+2026-10-03T15:05:16.991830978Z stdout F [ERROR] plugin/kubernetes: Unhandled Error
+2026-10-03T15:05:17.077376785Z stdout F [INFO] plugin/kubernetes: pkg/mod/k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251: failed to list *v1.Namespace: Get "https://10.96.0.1:443/api/v1/namespaces?limit=500&resourceVersion=0": dial tcp 10.96.0.1:443: i/o timeout
+2026-10-03T15:05:17.077399857Z stdout F [ERROR] plugin/kubernetes: Unhandled Error
+2026-10-03T15:05:17.08404365Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:05:27.084879514Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:05:37.084319423Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:05:39.038899111Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:05:48.308997623Z stdout F [INFO] plugin/kubernetes: pkg/mod/k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251: failed to list *v1.Service: Get "https://10.96.0.1:443/api/v1/services?limit=500&resourceVersion=0": dial tcp 10.96.0.1:443: i/o timeout
+2026-10-03T15:05:48.309040901Z stdout F [ERROR] plugin/kubernetes: Unhandled Error
+2026-10-03T15:05:49.039655049Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:05:49.229281371Z stdout F [INFO] plugin/kubernetes: pkg/mod/k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251: failed to list *v1.EndpointSlice: Get "https://10.96.0.1:443/apis/discovery.k8s.io/v1/endpointslices?limit=500&resourceVersion=0": dial tcp 10.96.0.1:443: i/o timeout
+2026-10-03T15:05:49.229303362Z stdout F [ERROR] plugin/kubernetes: Unhandled Error
+2026-10-03T15:05:50.218059083Z stdout F [INFO] plugin/kubernetes: pkg/mod/k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251: failed to list *v1.Namespace: Get "https://10.96.0.1:443/api/v1/namespaces?limit=500&resourceVersion=0": dial tcp 10.96.0.1:443: i/o timeout
+2026-10-03T15:05:50.218084047Z stdout F [ERROR] plugin/kubernetes: Unhandled Error
+2026-10-03T15:05:59.038785135Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:06:09.039969563Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:06:19.04027606Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:06:22.263076322Z stdout F [INFO] plugin/kubernetes: pkg/mod/k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251: failed to list *v1.Service: Get "https://10.96.0.1:443/api/v1/services?limit=500&resourceVersion=0": dial tcp 10.96.0.1:443: i/o timeout
+2026-10-03T15:06:22.26310008Z stdout F [ERROR] plugin/kubernetes: Unhandled Error
+2026-10-03T15:06:24.067880652Z stdout F [INFO] plugin/kubernetes: pkg/mod/k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251: failed to list *v1.EndpointSlice: Get "https://10.96.0.1:443/apis/discovery.k8s.io/v1/endpointslices?limit=500&resourceVersion=0": dial tcp 10.96.0.1:443: i/o timeout
+2026-10-03T15:06:24.06790093Z stdout F [ERROR] plugin/kubernetes: Unhandled Error
+2026-10-03T15:06:25.584562271Z stdout F [INFO] plugin/kubernetes: pkg/mod/k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251: failed to list *v1.Namespace: Get "https://10.96.0.1:443/api/v1/namespaces?limit=500&resourceVersion=0": dial tcp 10.96.0.1:443: i/o timeout
+2026-10-03T15:06:25.584598491Z stdout F [ERROR] plugin/kubernetes: Unhandled Error
+2026-10-03T15:06:29.039375518Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:06:39.039542062Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:06:49.039156071Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:06:55.040175268Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:06:59.459960207Z stdout F [INFO] plugin/kubernetes: pkg/mod/k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251: failed to list *v1.Service: Get "https://10.96.0.1:443/api/v1/services?limit=500&resourceVersion=0": dial tcp 10.96.0.1:443: i/o timeout
+2026-10-03T15:06:59.459978617Z stdout F [ERROR] plugin/kubernetes: Unhandled Error
+2026-10-03T15:07:03.614330098Z stdout F [INFO] plugin/kubernetes: pkg/mod/k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251: failed to list *v1.Namespace: Get "https://10.96.0.1:443/api/v1/namespaces?limit=500&resourceVersion=0": dial tcp 10.96.0.1:443: i/o timeout
+2026-10-03T15:07:03.614354073Z stdout F [ERROR] plugin/kubernetes: Unhandled Error
+2026-10-03T15:07:04.394399329Z stdout F [INFO] plugin/kubernetes: pkg/mod/k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251: failed to list *v1.EndpointSlice: Get "https://10.96.0.1:443/apis/discovery.k8s.io/v1/endpointslices?limit=500&resourceVersion=0": dial tcp 10.96.0.1:443: i/o timeout
+2026-10-03T15:07:04.394427791Z stdout F [ERROR] plugin/kubernetes: Unhandled Error
+2026-10-03T15:07:05.040067341Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:07:15.039728576Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:07:25.039649458Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:07:35.040239994Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:07:45.040477235Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:07:47.948532724Z stdout F [INFO] plugin/kubernetes: pkg/mod/k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251: failed to list *v1.Namespace: Get "https://10.96.0.1:443/api/v1/namespaces?limit=500&resourceVersion=0": dial tcp 10.96.0.1:443: i/o timeout
+2026-10-03T15:07:47.948548064Z stdout F [ERROR] plugin/kubernetes: Unhandled Error
+2026-10-03T15:07:52.835360919Z stdout F [INFO] plugin/kubernetes: pkg/mod/k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251: failed to list *v1.Service: Get "https://10.96.0.1:443/api/v1/services?limit=500&resourceVersion=0": dial tcp 10.96.0.1:443: i/o timeout
+2026-10-03T15:07:52.835380456Z stdout F [ERROR] plugin/kubernetes: Unhandled Error
+2026-10-03T15:07:53.65883289Z stdout F [INFO] plugin/kubernetes: pkg/mod/k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251: failed to list *v1.EndpointSlice: Get "https://10.96.0.1:443/apis/discovery.k8s.io/v1/endpointslices?limit=500&resourceVersion=0": dial tcp 10.96.0.1:443: i/o timeout
+2026-10-03T15:07:53.658852547Z stdout F [ERROR] plugin/kubernetes: Unhandled Error
+2026-10-03T15:07:55.040434836Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:08:03.041015945Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:08:13.041661689Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:08:23.04064427Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:08:33.041245599Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:08:43.040018564Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:08:52.627180751Z stdout F [INFO] plugin/kubernetes: pkg/mod/k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251: failed to list *v1.Service: Get "https://10.96.0.1:443/api/v1/services?limit=500&resourceVersion=0": dial tcp 10.96.0.1:443: i/o timeout
+2026-10-03T15:08:52.627193232Z stdout F [ERROR] plugin/kubernetes: Unhandled Error
+2026-10-03T15:08:53.0399404Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:08:58.02930741Z stdout F [INFO] plugin/kubernetes: pkg/mod/k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251: failed to list *v1.Namespace: Get "https://10.96.0.1:443/api/v1/namespaces?limit=500&resourceVersion=0": dial tcp 10.96.0.1:443: i/o timeout
+2026-10-03T15:08:58.029337579Z stdout F [ERROR] plugin/kubernetes: Unhandled Error
+2026-10-03T15:09:02.45166062Z stdout F [INFO] plugin/kubernetes: pkg/mod/k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251: failed to list *v1.EndpointSlice: Get "https://10.96.0.1:443/apis/discovery.k8s.io/v1/endpointslices?limit=500&resourceVersion=0": dial tcp 10.96.0.1:443: i/o timeout
+2026-10-03T15:09:02.451692194Z stdout F [ERROR] plugin/kubernetes: Unhandled Error
+2026-10-03T15:09:03.04106788Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:09:13.040533866Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:09:19.040949838Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:09:29.041038424Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:09:39.040006235Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:09:49.040382511Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:09:59.040410888Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:10:02.34195634Z stdout F [INFO] plugin/kubernetes: pkg/mod/k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251: failed to list *v1.Service: Get "https://10.96.0.1:443/api/v1/services?limit=500&resourceVersion=0": dial tcp 10.96.0.1:443: i/o timeout
+2026-10-03T15:10:02.341989014Z stdout F [ERROR] plugin/kubernetes: Unhandled Error
+2026-10-03T15:10:03.546830835Z stdout F [INFO] plugin/kubernetes: pkg/mod/k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251: failed to list *v1.Namespace: Get "https://10.96.0.1:443/api/v1/namespaces?limit=500&resourceVersion=0": dial tcp 10.96.0.1:443: i/o timeout
+2026-10-03T15:10:03.546864195Z stdout F [ERROR] plugin/kubernetes: Unhandled Error
+2026-10-03T15:10:09.042003918Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:10:19.040168519Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:10:19.122393171Z stdout F [INFO] plugin/kubernetes: pkg/mod/k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251: failed to list *v1.EndpointSlice: Get "https://10.96.0.1:443/apis/discovery.k8s.io/v1/endpointslices?limit=500&resourceVersion=0": dial tcp 10.96.0.1:443: i/o timeout
+2026-10-03T15:10:19.12240927Z stdout F [ERROR] plugin/kubernetes: Unhandled Error
+2026-10-03T15:10:23.039264691Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:10:33.03908431Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:10:43.04031053Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:10:53.040310254Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:11:03.040316445Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:11:04.750671448Z stdout F [INFO] plugin/kubernetes: pkg/mod/k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251: failed to list *v1.Namespace: Get "https://10.96.0.1:443/api/v1/namespaces?limit=500&resourceVersion=0": dial tcp 10.96.0.1:443: i/o timeout
+2026-10-03T15:11:04.750714491Z stdout F [ERROR] plugin/kubernetes: Unhandled Error
+2026-10-03T15:11:13.040328108Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:11:20.638636973Z stdout F [INFO] plugin/kubernetes: pkg/mod/k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251: failed to list *v1.Service: Get "https://10.96.0.1:443/api/v1/services?limit=500&resourceVersion=0": dial tcp 10.96.0.1:443: i/o timeout
+2026-10-03T15:11:20.638678208Z stdout F [ERROR] plugin/kubernetes: Unhandled Error
+2026-10-03T15:11:20.643495807Z stdout F [INFO] plugin/kubernetes: pkg/mod/k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251: failed to list *v1.EndpointSlice: Get "https://10.96.0.1:443/apis/discovery.k8s.io/v1/endpointslices?limit=500&resourceVersion=0": dial tcp 10.96.0.1:443: i/o timeout
+2026-10-03T15:11:20.643517045Z stdout F [ERROR] plugin/kubernetes: Unhandled Error
+2026-10-03T15:11:23.040422847Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:11:33.040223385Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:11:43.040635842Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:11:49.043690647Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:11:59.043643655Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:12:09.044383788Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:12:16.13358729Z stdout F [INFO] plugin/kubernetes: pkg/mod/k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251: failed to list *v1.Namespace: Get "https://10.96.0.1:443/api/v1/namespaces?limit=500&resourceVersion=0": dial tcp 10.96.0.1:443: i/o timeout
+2026-10-03T15:12:16.133657288Z stdout F [ERROR] plugin/kubernetes: Unhandled Error
+2026-10-03T15:12:19.043924473Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:12:29.043912325Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:12:34.963102562Z stdout F [INFO] plugin/kubernetes: pkg/mod/k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251: failed to list *v1.EndpointSlice: Get "https://10.96.0.1:443/apis/discovery.k8s.io/v1/endpointslices?limit=500&resourceVersion=0": dial tcp 10.96.0.1:443: i/o timeout
+2026-10-03T15:12:34.963124198Z stdout F [ERROR] plugin/kubernetes: Unhandled Error
+2026-10-03T15:12:38.955217319Z stdout F [INFO] plugin/kubernetes: pkg/mod/k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251: failed to list *v1.Service: Get "https://10.96.0.1:443/api/v1/services?limit=500&resourceVersion=0": dial tcp 10.96.0.1:443: i/o timeout
+2026-10-03T15:12:38.95523643Z stdout F [ERROR] plugin/kubernetes: Unhandled Error
+2026-10-03T15:12:39.043872127Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:12:49.044256299Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:12:53.041026249Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:13:03.042002248Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:13:13.041690685Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:13:23.041719516Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:13:33.041642456Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:13:37.70907222Z stdout F [INFO] plugin/kubernetes: pkg/mod/k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251: failed to list *v1.Namespace: Get "https://10.96.0.1:443/api/v1/namespaces?limit=500&resourceVersion=0": dial tcp 10.96.0.1:443: i/o timeout
+2026-10-03T15:13:37.709088607Z stdout F [ERROR] plugin/kubernetes: Unhandled Error
+2026-10-03T15:13:43.039998785Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:13:44.332153922Z stdout F [INFO] plugin/kubernetes: pkg/mod/k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251: failed to list *v1.EndpointSlice: Get "https://10.96.0.1:443/apis/discovery.k8s.io/v1/endpointslices?limit=500&resourceVersion=0": dial tcp 10.96.0.1:443: i/o timeout
+2026-10-03T15:13:44.332197815Z stdout F [ERROR] plugin/kubernetes: Unhandled Error
+2026-10-03T15:13:53.041062699Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:14:03.04038624Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:14:05.955007365Z stdout F [INFO] plugin/kubernetes: pkg/mod/k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251: failed to list *v1.Service: Get "https://10.96.0.1:443/api/v1/services?limit=500&resourceVersion=0": dial tcp 10.96.0.1:443: i/o timeout
+2026-10-03T15:14:05.955032795Z stdout F [ERROR] plugin/kubernetes: Unhandled Error
+2026-10-03T15:14:13.040728875Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:14:15.038980569Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:14:25.039019536Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:14:35.038803673Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:14:45.039722292Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:14:46.125429134Z stdout F [INFO] plugin/kubernetes: pkg/mod/k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251: failed to list *v1.Namespace: Get "https://10.96.0.1:443/api/v1/namespaces?limit=500&resourceVersion=0": dial tcp 10.96.0.1:443: i/o timeout
+2026-10-03T15:14:46.125447229Z stdout F [ERROR] plugin/kubernetes: Unhandled Error
+2026-10-03T15:14:50.213571209Z stdout F [INFO] plugin/kubernetes: pkg/mod/k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251: failed to list *v1.EndpointSlice: Get "https://10.96.0.1:443/apis/discovery.k8s.io/v1/endpointslices?limit=500&resourceVersion=0": dial tcp 10.96.0.1:443: i/o timeout
+2026-10-03T15:14:50.213619773Z stdout F [ERROR] plugin/kubernetes: Unhandled Error
+2026-10-03T15:14:55.039372725Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:15:05.03947542Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:15:15.041152276Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:15:17.039119489Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:15:27.039696814Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:15:31.397065739Z stdout F [INFO] plugin/kubernetes: pkg/mod/k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251: failed to list *v1.Service: Get "https://10.96.0.1:443/api/v1/services?limit=500&resourceVersion=0": dial tcp 10.96.0.1:443: i/o timeout
+2026-10-03T15:15:31.397073911Z stdout F [ERROR] plugin/kubernetes: Unhandled Error
+2026-10-03T15:15:37.039365924Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:15:47.039411732Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:15:57.03945132Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:16:07.039103181Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:16:07.455798716Z stdout F [INFO] plugin/kubernetes: pkg/mod/k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251: failed to list *v1.Namespace: Get "https://10.96.0.1:443/api/v1/namespaces?limit=500&resourceVersion=0": dial tcp 10.96.0.1:443: i/o timeout
+2026-10-03T15:16:07.455828038Z stdout F [ERROR] plugin/kubernetes: Unhandled Error
+2026-10-03T15:16:09.490849445Z stdout F [INFO] plugin/kubernetes: pkg/mod/k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251: failed to list *v1.EndpointSlice: Get "https://10.96.0.1:443/apis/discovery.k8s.io/v1/endpointslices?limit=500&resourceVersion=0": dial tcp 10.96.0.1:443: i/o timeout
+2026-10-03T15:16:09.490893635Z stdout F [ERROR] plugin/kubernetes: Unhandled Error
+2026-10-03T15:16:17.040443796Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:16:27.039212482Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:16:37.040106219Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:16:44.040395107Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:16:54.041124173Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:16:58.391646291Z stdout F [INFO] plugin/kubernetes: pkg/mod/k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251: failed to list *v1.Service: Get "https://10.96.0.1:443/api/v1/services?limit=500&resourceVersion=0": dial tcp 10.96.0.1:443: i/o timeout
+2026-10-03T15:16:58.39165975Z stdout F [ERROR] plugin/kubernetes: Unhandled Error
+2026-10-03T15:17:04.040330841Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:17:08.329712422Z stdout F [INFO] plugin/kubernetes: pkg/mod/k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251: failed to list *v1.Namespace: Get "https://10.96.0.1:443/api/v1/namespaces?limit=500&resourceVersion=0": dial tcp 10.96.0.1:443: i/o timeout
+2026-10-03T15:17:08.329861358Z stdout F [ERROR] plugin/kubernetes: Unhandled Error
+2026-10-03T15:17:14.041027234Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:17:23.016084147Z stdout F [INFO] plugin/kubernetes: pkg/mod/k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251: failed to list *v1.EndpointSlice: Get "https://10.96.0.1:443/apis/discovery.k8s.io/v1/endpointslices?limit=500&resourceVersion=0": dial tcp 10.96.0.1:443: i/o timeout
+2026-10-03T15:17:23.01612946Z stdout F [ERROR] plugin/kubernetes: Unhandled Error
+2026-10-03T15:17:24.040864957Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:17:34.039971106Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:17:44.040918744Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:17:54.040264326Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:18:03.040939862Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2026-10-03T15:18:13.039703834Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"

@@ -1,0 +1,1 @@
+2026-10-03T15:15:05.180970788Z stderr F E1003 15:15:05.180721       1 run.go:72] "command failed" err="failed complete: too many open files"

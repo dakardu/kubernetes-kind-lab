@@ -1,0 +1,61 @@
+Client: Docker Engine - Community
+ Version:    29.8.0
+ Context:    default
+ Debug Mode: false
+ Plugins:
+  buildx: Docker Buildx (Docker Inc.)
+    Version:  v0.37.1
+    Path:     /usr/libexec/docker/cli-plugins/docker-buildx
+  compose: Docker Compose (Docker Inc.)
+    Version:  v5.5.1
+    Path:     /usr/libexec/docker/cli-plugins/docker-compose
+
+Server:
+ Containers: 13
+  Running: 6
+  Paused: 0
+  Stopped: 7
+ Images: 18
+ Server Version: 29.8.0
+ Storage Driver: overlayfs
+  driver-type: io.containerd.snapshotter.v1
+ Logging Driver: json-file
+ Cgroup Driver: systemd
+ Cgroup Version: 2
+ Plugins:
+  Volume: local
+  Network: bridge host ipvlan macvlan null overlay
+  Log: awslogs fluentd gcplogs gelf journald json-file local splunk syslog
+ CDI spec directories:
+  /etc/cdi
+  /var/run/cdi
+ Swarm: inactive
+ Runtimes: io.containerd.runc.v2 runc
+ Default Runtime: runc
+ Init Binary: docker-init
+ containerd version: 1294c24a7da8e5a793ed378161673abe94118892
+ runc version: v1.5.1-0-g8f2685a4
+ init version: de40ad0
+ Security Options:
+  seccomp
+   Profile: builtin
+  cgroupns
+ Kernel Version: 5.14.0-687.46.1.el9_8.x86_64
+ Operating System: AlmaLinux 9.8 (Olive Jaguar)
+ OSType: linux
+ Architecture: x86_64
+ CPUs: 16
+ Total Memory: 3.566GiB
+ Name: localhost.localdomain
+ ID: 1a63f4e5-16dc-480d-b9f0-6ace9f85eaab
+ Docker Root Dir: /var/lib/docker
+ Debug Mode: false
+ Experimental: false
+ Insecure Registries:
+  ::1/128
+  127.0.0.0/8
+ Live Restore Enabled: false
+ Firewall Backend: iptables+firewalld
+  EnableUserlandProxy: true
+  UserlandProxyPath: /usr/bin/docker-proxy
+
