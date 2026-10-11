@@ -1,4 +1,4 @@
-# Kubernetes Lab — k8k-lab
+# Kubernetes Kind Lab
 
 ## 1. Crear un clúster Kind de 3 nodos
 
